@@ -4,7 +4,7 @@
     "title": "SQL Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19091",
     "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/19091?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-sql\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-sql/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-sql\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-sql/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 6376,
     "show_correct_answers_last_attempt": true,
-    "version_number": 5,
+    "version_number": 6,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": "gd99c49b08cb6ccf50f330bdfc03c3521",
@@ -99,7 +99,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/introduction-to-sql\">Introduction to SQL</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3976,
+          "id": 5767,
           "text": "",
           "html": "<p>Managing data in a database</p>",
           "comments": "",
@@ -107,7 +107,7 @@
           "weight": 100.0
         },
         {
-          "id": 8394,
+          "id": 5988,
           "text": "",
           "html": "<p>Building classes</p>",
           "comments": "",
@@ -115,7 +115,7 @@
           "weight": 0.0
         },
         {
-          "id": 6997,
+          "id": 3631,
           "text": "",
           "html": "<p>Creating databases</p>",
           "comments": "",
@@ -123,7 +123,7 @@
           "weight": 0.0
         },
         {
-          "id": 2833,
+          "id": 6351,
           "text": "",
           "html": "<p>Using SQLite</p>",
           "comments": "",
@@ -131,7 +131,7 @@
           "weight": 0.0
         },
         {
-          "id": 25,
+          "id": 2324,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -164,7 +164,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/database-basics?module_item_id=143863\">Database Basics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7479,
+          "id": 5638,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">DROP</span> <span class=\"k\">TABLE</span> <span class=\"k\">table_name</span><span class=\"p\">;</span>\n</code></pre></div>",
           "comments": "",
@@ -172,7 +172,7 @@
           "weight": 100.0
         },
         {
-          "id": 8010,
+          "id": 8612,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">DROP</span> <span class=\"k\">table_name</span><span class=\"p\">;</span>\n</code></pre></div>",
           "comments": "",
@@ -180,7 +180,7 @@
           "weight": 0.0
         },
         {
-          "id": 859,
+          "id": 5004,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">DROP</span> <span class=\"k\">table_name</span>\n</code></pre></div>",
           "comments": "",
@@ -188,7 +188,7 @@
           "weight": 0.0
         },
         {
-          "id": 9680,
+          "id": 9851,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">DROP</span> <span class=\"k\">TABLE</span> <span class=\"k\">table_name</span>\n</code></pre></div>",
           "comments": "",
@@ -196,7 +196,7 @@
           "weight": 0.0
         },
         {
-          "id": 1877,
+          "id": 8914,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -229,7 +229,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/sqlite-data-types?module_item_id=143865\">SQLite Data Types</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9817,
+          "id": 3197,
           "text": "",
           "html": "<p><code>INTEGER</code></p>",
           "comments": "",
@@ -237,7 +237,7 @@
           "weight": 100.0
         },
         {
-          "id": 685,
+          "id": 102,
           "text": "",
           "html": "<p><code>BLOB</code></p>",
           "comments": "",
@@ -245,7 +245,7 @@
           "weight": 0.0
         },
         {
-          "id": 7451,
+          "id": 5395,
           "text": "",
           "html": "<p><code>REAL</code></p>",
           "comments": "",
@@ -253,7 +253,7 @@
           "weight": 0.0
         },
         {
-          "id": 3201,
+          "id": 4830,
           "text": "",
           "html": "<p><code>TEXT</code></p>",
           "comments": "",
@@ -261,7 +261,7 @@
           "weight": 0.0
         },
         {
-          "id": 525,
+          "id": 8881,
           "text": "",
           "html": "<p>I don't know</p>",
           "comments": "",
@@ -294,7 +294,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/database-basics?module_item_id=143863\">Database Basics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9407,
+          "id": 5860,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">ALTER</span> <span class=\"k\">TABLE</span> <span class=\"k\">table_name</span> <span class=\"k\">ADD</span> <span class=\"k\">COLUMN</span> <span class=\"k\">column_name</span> <span class=\"nb\">TEXT</span><span class=\"p\">;</span>\n</code></pre></div>",
           "comments": "",
@@ -302,7 +302,7 @@
           "weight": 100.0
         },
         {
-          "id": 2449,
+          "id": 8140,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"n\">CHANGE</span> <span class=\"k\">TABLE</span> <span class=\"k\">table_name</span> <span class=\"k\">ADD</span> <span class=\"k\">COLUMN</span> <span class=\"k\">column_name</span> <span class=\"nb\">TEXT</span><span class=\"p\">;</span>\n</code></pre></div>",
           "comments": "",
@@ -310,7 +310,7 @@
           "weight": 0.0
         },
         {
-          "id": 8105,
+          "id": 6584,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"n\">CHANGE</span> <span class=\"k\">TABLE</span> <span class=\"k\">table_name</span> <span class=\"k\">COLUMN</span> <span class=\"k\">column_name</span> <span class=\"nb\">TEXT</span><span class=\"p\">;</span>\n</code></pre></div>",
           "comments": "",
@@ -318,7 +318,7 @@
           "weight": 0.0
         },
         {
-          "id": 3527,
+          "id": 2184,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -351,7 +351,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/sql-insert-select-update-and-delete?module_item_id=143866\">SQL Insert, Select, Update and Delete</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5994,
+          "id": 8543,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">INSERT</span>\n</code></pre></div>",
           "comments": "",
@@ -359,7 +359,7 @@
           "weight": 100.0
         },
         {
-          "id": 4857,
+          "id": 7060,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">ADD</span> <span class=\"k\">TO</span>\n</code></pre></div>",
           "comments": "",
@@ -367,7 +367,7 @@
           "weight": 0.0
         },
         {
-          "id": 7247,
+          "id": 3022,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">UPDATE</span>\n</code></pre></div>",
           "comments": "",
@@ -375,7 +375,7 @@
           "weight": 0.0
         },
         {
-          "id": 8982,
+          "id": 3458,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -408,7 +408,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/sql-insert-select-update-and-delete?module_item_id=143866\">SQL Insert, Select, Update and Delete</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4434,
+          "id": 5631,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">SELECT</span> <span class=\"o\">*</span> <span class=\"k\">FROM</span> <span class=\"k\">table_name</span><span class=\"p\">;</span>\n</code></pre></div>",
           "comments": "",
@@ -416,7 +416,7 @@
           "weight": 100.0
         },
         {
-          "id": 833,
+          "id": 8650,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">SELECT</span> <span class=\"k\">FROM</span> <span class=\"k\">table_name</span><span class=\"p\">;</span>\n</code></pre></div>",
           "comments": "",
@@ -424,7 +424,7 @@
           "weight": 0.0
         },
         {
-          "id": 4761,
+          "id": 2506,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">SELECT</span> <span class=\"k\">table_name</span><span class=\"p\">;</span>\n</code></pre></div>",
           "comments": "",
@@ -432,7 +432,7 @@
           "weight": 0.0
         },
         {
-          "id": 22,
+          "id": 8750,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -465,7 +465,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/aggregate-functions\">Aggregate Functions</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1338,
+          "id": 6486,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Aggregate functions perform calculations, and this command finds the\naverage value for the specified data.</p>",
@@ -473,7 +473,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">AVG</span>\n</code></pre></div>"
         },
         {
-          "id": 2989,
+          "id": 2107,
           "text": "",
           "comments": "",
           "comments_html": "<p>Yes! Aggregate functions perform calculations, and this command finds the\nminimum value for the specified data.</p>",
@@ -481,7 +481,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">MIN</span>\n</code></pre></div>"
         },
         {
-          "id": 1503,
+          "id": 9667,
           "text": "",
           "comments": "",
           "comments_html": "<p>Exactly! Aggregate functions perform calculations, and this command counts the\nrows in the specified data.</p>",
@@ -489,7 +489,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">COUNT</span>\n</code></pre></div>"
         },
         {
-          "id": 8239,
+          "id": 6932,
           "text": "",
           "comments": "",
           "comments_html": "<p>Not quite. Aggregate functions perform calculations. Which of these commands\nlook like they do that?</p>",
@@ -497,7 +497,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">SELECT</span>\n</code></pre></div>"
         },
         {
-          "id": 9410,
+          "id": 6234,
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -530,7 +530,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/sql-queries\">SQL Queries</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6938,
+          "id": 2354,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>food            spice_level      country\n--------------- ---------------- ---------\nGreen Curry     9                Thailand\nMapo Tofu       6                China\n</code></pre></div>",
           "comments": "",
@@ -538,7 +538,7 @@
           "weight": 100.0
         },
         {
-          "id": 718,
+          "id": 8239,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>food            spice_level      country\n--------------- ---------------- ---------\nBuffalo Wing    3                USA\nMapo Tofu       6                China\n</code></pre></div>",
           "comments": "",
@@ -546,7 +546,7 @@
           "weight": 0.0
         },
         {
-          "id": 293,
+          "id": 4731,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>food            spice_level      country\n--------------- ---------------- ---------\nBuffalo Wing    3                USA\n</code></pre></div>",
           "comments": "",
@@ -554,7 +554,7 @@
           "weight": 0.0
         },
         {
-          "id": 4910,
+          "id": 4148,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>food            spice_level      country\n--------------- ---------------- ---------\nGreen Curry     9                Thailand\n</code></pre></div>",
           "comments": "",
@@ -562,7 +562,7 @@
           "weight": 0.0
         },
         {
-          "id": 3130,
+          "id": 3538,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -585,41 +585,41 @@
       "position": null,
       "question_name": "SQL: SQLite",
       "question_type": "matching_question",
-      "question_text": "<p>Match each tool for interacting with a SQLite database with the descriptions below.</p>",
+      "question_text": "<p>Match each tool for interacting with a SQLite database with the descriptions\nbelow.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p>\n<ul>\n<li><a href=\"https://learning.flatironschool.com/courses/3299/pages/introduction-to-sql\">Introduction to SQL</a></li>\n</ul>\n<p>&nbsp;</p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/introduction-to-sql\">Introduction to SQL</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2890,
-          "text": "`sqlite` command line interface tool",
-          "left": "`sqlite` command line interface tool",
+          "id": 4892,
+          "text": "sqlite command line interface tool",
+          "left": "sqlite command line interface tool",
           "right": "Easy to run quick commands but no graphical representation of the data",
           "comments": "",
           "comments_html": "",
-          "match_id": 5960
+          "match_id": 6831
         },
         {
-          "id": 7901,
+          "id": 8906,
           "text": "VSCode SQLite extension",
           "left": "VSCode SQLite extension",
-          "right": "Easy to access and easy to see a graphical representation of the data, but can't run SQL commands",
+          "right": "Easy to access and easy to see a graphical representation of the data, but\ncan't run SQL commands",
           "comments": "",
           "comments_html": "",
-          "match_id": 3473
+          "match_id": 5074
         },
         {
-          "id": 9642,
+          "id": 3515,
           "text": "DB Browser for SQLite application",
           "left": "DB Browser for SQLite application",
-          "right": "Can run SQL commands and can see a graphical representation of the data, but more work to access",
+          "right": "Can run SQL commands and can see a graphical representation of the data, but\nmore work to access",
           "comments": "",
           "comments_html": "",
-          "match_id": 1904
+          "match_id": 8901
         }
       ],
       "variables": null,
@@ -629,19 +629,19 @@
       "matches": [
         {
           "text": "Easy to run quick commands but no graphical representation of the data",
-          "match_id": 5960
+          "match_id": 6831
         },
         {
-          "text": "Easy to access and easy to see a graphical representation of the data, but can't run SQL commands",
-          "match_id": 3473
+          "text": "Easy to access and easy to see a graphical representation of the data, but\ncan't run SQL commands",
+          "match_id": 5074
         },
         {
-          "text": "Can run SQL commands and can see a graphical representation of the data, but more work to access",
-          "match_id": 1904
+          "text": "Can run SQL commands and can see a graphical representation of the data, but\nmore work to access",
+          "match_id": 8901
         },
         {
           "text": "I don't know.",
-          "match_id": 3261
+          "match_id": 8217
         }
       ],
       "matching_answer_incorrect_matches": "I don't know."
