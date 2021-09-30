@@ -4,7 +4,7 @@
     "title": "SQL Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19091",
     "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/19091?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-sql\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-sql/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-sql\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-sql/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -13,8 +13,8 @@
     "scoring_policy": "keep_highest",
     "allowed_attempts": 3,
     "one_question_at_a_time": true,
-    "question_count": 11,
-    "points_possible": 11.0,
+    "question_count": 9,
+    "points_possible": 9.0,
     "cant_go_back": false,
     "access_code": null,
     "ip_filter": null,
@@ -576,6 +576,75 @@
       "formula_decimal_places": null,
       "matches": null,
       "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19091,
+      "id": 149794,
+      "quiz_group_id": null,
+      "assessment_question_id": 185853,
+      "position": null,
+      "question_name": "SQL: SQLite",
+      "question_type": "matching_question",
+      "question_text": "<p>Match each tool for interacting with a SQLite database with the descriptions below.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p>\n<ul>\n<li><a href=\"https://learning.flatironschool.com/courses/3299/pages/introduction-to-sql\">Introduction to SQL</a></li>\n</ul>\n<p>&nbsp;</p>",
+      "answers": [
+        {
+          "id": 2890,
+          "text": "`sqlite` command line interface tool",
+          "left": "`sqlite` command line interface tool",
+          "right": "Easy to run quick commands but no graphical representation of the data",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 5960
+        },
+        {
+          "id": 7901,
+          "text": "VSCode SQLite extension",
+          "left": "VSCode SQLite extension",
+          "right": "Easy to access and easy to see a graphical representation of the data, but can't run SQL commands",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 3473
+        },
+        {
+          "id": 9642,
+          "text": "DB Browser for SQLite application",
+          "left": "DB Browser for SQLite application",
+          "right": "Can run SQL commands and can see a graphical representation of the data, but more work to access",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 1904
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": [
+        {
+          "text": "Easy to run quick commands but no graphical representation of the data",
+          "match_id": 5960
+        },
+        {
+          "text": "Easy to access and easy to see a graphical representation of the data, but can't run SQL commands",
+          "match_id": 3473
+        },
+        {
+          "text": "Can run SQL commands and can see a graphical representation of the data, but more work to access",
+          "match_id": 1904
+        },
+        {
+          "text": "I don't know.",
+          "match_id": 3261
+        }
+      ],
+      "matching_answer_incorrect_matches": "I don't know."
     }
   ]
 }
