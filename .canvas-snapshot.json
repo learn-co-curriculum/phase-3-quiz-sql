@@ -1,0 +1,786 @@
+{
+  "quiz": {
+    "id": 19091,
+    "title": "SQL Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19091",
+    "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/19091?force_user=1&persist_headless=1",
+    "description": "<div>\n<div><span>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></div>\n<br>\n<div><span>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></div>\n</div>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 11,
+    "points_possible": 11.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_19091"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": "",
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19091/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19091/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19091/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19091/submission_versions",
+    "assignment_id": 129366,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6376,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 4,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": "gd99c49b08cb6ccf50f330bdfc03c3521",
+    "question_types": [
+      "multiple_choice_question",
+      "multiple_answers_question"
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 19091,
+      "id": 120562,
+      "quiz_group_id": null,
+      "assessment_question_id": 182750,
+      "position": null,
+      "question_name": "SQL: Fundamentals",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>SQL (Structured Query Language) is a language for what?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/introduction-to-sql?module_item_id=143860\" target=\"_blank\">Introduction to SQL</a></p>",
+      "answers": [
+        {
+          "id": 5657,
+          "text": "Managing data in a database",
+          "html": "",
+          "comments": "",
+          "comments_html": "Correct! SQL lets us find, insert, delete, and update data in a database.",
+          "weight": 100.0
+        },
+        {
+          "id": 7968,
+          "text": "Building classes",
+          "html": "",
+          "comments": "",
+          "comments_html": "SQL is not used for building classes. You may wish to review the resource/s for this question.",
+          "weight": 0.0
+        },
+        {
+          "id": 9405,
+          "text": "Creating databases only",
+          "html": "",
+          "comments": "",
+          "comments_html": "We can actually perform many database tasks with SQL. Take another look at the answer choices.",
+          "weight": 0.0
+        },
+        {
+          "id": 8997,
+          "text": "Using SQLite only",
+          "html": "",
+          "comments": "",
+          "comments_html": "SQL works with a number of different databases, like Postgres. What can we do with SQL?",
+          "weight": 0.0
+        },
+        {
+          "id": 9119,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19091,
+      "id": 120563,
+      "quiz_group_id": null,
+      "assessment_question_id": 182527,
+      "position": null,
+      "question_name": "SQL: SQLite",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>If SQLite is installed, how can you find out which version you are using?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p>Source: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/setting-up-sqlite?module_item_id=143862\" target=\"_blank\">Setting up SQLite</a></p>",
+      "answers": [
+        {
+          "id": 8439,
+          "text": "",
+          "html": "<pre><span>which sqlite3</span></pre>",
+          "comments": "",
+          "comments_html": "<p>Correct! Entering this command in the terminal will return the version you are using.</p>",
+          "weight": 100.0
+        },
+        {
+          "id": 3379,
+          "text": "",
+          "html": "<pre><span>which sqlite</span></pre>",
+          "comments": "",
+          "comments_html": "<p>Close! But you need to specify `sqlite3`, not just `sqlite`.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 8363,
+          "text": "",
+          "html": "<pre><span>which sql</span></pre>",
+          "comments": "",
+          "comments_html": "<p>Close! But remember we're checking the version of the specific database we're using. What change do we need to make to get the information we want?</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 4738,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19091,
+      "id": 120564,
+      "quiz_group_id": null,
+      "assessment_question_id": 182528,
+      "position": null,
+      "question_name": "SQL: SQLite",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>To exit SQLite, which command can be used?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/setting-up-sqlite?module_item_id=143862\" target=\"_blank\">Setting up SQLite</a></p>",
+      "answers": [
+        {
+          "id": 4501,
+          "text": "",
+          "html": "<pre><span>.quit</span></pre>",
+          "comments": "",
+          "comments_html": "Correct! This will exit SQLite.",
+          "weight": 100.0
+        },
+        {
+          "id": 1113,
+          "text": "",
+          "html": "<pre><span>command + c</span></pre>",
+          "comments": "",
+          "comments_html": "Not quite. Run <code>sqlite</code> or <code>sqlite3</code>, and then type <code>.help</code> to see a full list of commands.",
+          "weight": 0.0
+        },
+        {
+          "id": 1769,
+          "text": "",
+          "html": "<pre>.exit</pre>",
+          "comments": "",
+          "comments_html": "Almost. Run <code>sqlite</code> or <code>sqlite3</code>, and then type <code>.help</code> to see a full list of commands.",
+          "weight": 0.0
+        },
+        {
+          "id": 7075,
+          "text": "",
+          "html": "<pre><span>ctrl + c</span></pre>",
+          "comments": "",
+          "comments_html": "Not quite. This will exit if you enter the command twice in a row, though.",
+          "weight": 0.0
+        },
+        {
+          "id": 215,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19091,
+      "id": 120565,
+      "quiz_group_id": null,
+      "assessment_question_id": 182751,
+      "position": null,
+      "question_name": "SQL: Database Basics",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>To list all the tables in a database, which command is used?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/database-basics?module_item_id=143863\" target=\"_blank\">Database Basics</a></p>",
+      "answers": [
+        {
+          "id": 26,
+          "text": "",
+          "html": "<pre>.tables</pre>",
+          "comments": "",
+          "comments_html": "Yes! This will list all of the tables.",
+          "weight": 100.0
+        },
+        {
+          "id": 1244,
+          "text": "",
+          "html": "<pre>.schema</pre>",
+          "comments": "",
+          "comments_html": "Not quite. This shows the structure of the database. You might want to run <code>.help</code> to find the correct command.",
+          "weight": 0.0
+        },
+        {
+          "id": 2591,
+          "text": "",
+          "html": "<pre>.help</pre>",
+          "comments": "",
+          "comments_html": "You can use this command to find out which command lists all of the tables.",
+          "weight": 0.0
+        },
+        {
+          "id": 301,
+          "text": "",
+          "html": "<pre>.list</pre>",
+          "comments": "",
+          "comments_html": "Not quite. You might want to run <code>.help</code> to find the correct command.",
+          "weight": 0.0
+        },
+        {
+          "id": 8268,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19091,
+      "id": 120566,
+      "quiz_group_id": null,
+      "assessment_question_id": 182752,
+      "position": null,
+      "question_name": "SQL: Database Basics",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>To delete a table, which command is used?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/database-basics?module_item_id=143863\" target=\"_blank\">Database Basics</a></p>",
+      "answers": [
+        {
+          "id": 1725,
+          "text": "",
+          "html": "<pre>DROP TABLE table_name;</pre>",
+          "comments": "",
+          "comments_html": "Exactly! Never forget the mighty semicolon!",
+          "weight": 100.0
+        },
+        {
+          "id": 3605,
+          "text": "",
+          "html": "<pre>DROP table_name;</pre>",
+          "comments": "",
+          "comments_html": "Close, but a word is missing. Which word is it?",
+          "weight": 0.0
+        },
+        {
+          "id": 765,
+          "text": "",
+          "html": "<pre>DROP table_name</pre>",
+          "comments": "",
+          "comments_html": "Not quite. Two things are missing: an uppercase word and a punctuation mark.",
+          "weight": 0.0
+        },
+        {
+          "id": 6005,
+          "text": "",
+          "html": "<pre>DROP TABLE table_name</pre>",
+          "comments": "",
+          "comments_html": "So close, but one little bit of punctuation is missing. Can you remember what it is?",
+          "weight": 0.0
+        },
+        {
+          "id": 5309,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19091,
+      "id": 120567,
+      "quiz_group_id": null,
+      "assessment_question_id": 182529,
+      "position": null,
+      "question_name": "SQL: Data Types",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>To store data that will be represented as a whole number, which data type is used?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/sqlite-data-types?module_item_id=143865\" target=\"_blank\">SQLite Data Types</a></p>",
+      "answers": [
+        {
+          "id": 1632,
+          "text": "INTEGER",
+          "html": "",
+          "comments": "",
+          "comments_html": "Perfect! Integers are whole numbers.",
+          "weight": 100.0
+        },
+        {
+          "id": 2408,
+          "text": "BLOB",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>This is usually used for holding binary data.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 6100,
+          "text": "REAL",
+          "html": "",
+          "comments": "",
+          "comments_html": "This is actually a type of floating-point number.",
+          "weight": 0.0
+        },
+        {
+          "id": 3463,
+          "text": "TEXT",
+          "html": "",
+          "comments": "",
+          "comments_html": "This would be suitable for strings, e.g. \"hello you\".",
+          "weight": 0.0
+        },
+        {
+          "id": 7012,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19091,
+      "id": 120568,
+      "quiz_group_id": null,
+      "assessment_question_id": 182753,
+      "position": null,
+      "question_name": "SQL: Database Basics",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>To add a column to an existing table, which command is used?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/database-basics?module_item_id=143863\" target=\"_blank\">Database Basics</a></p>",
+      "answers": [
+        {
+          "id": 2540,
+          "text": "",
+          "html": "<pre>ALTER TABLE table_name ADD COLUMN column_name TEXT;</pre>",
+          "comments": "",
+          "comments_html": "Exactly! This will add a new column that stores text to the table.",
+          "weight": 100.0
+        },
+        {
+          "id": 2475,
+          "text": "",
+          "html": "<pre>CHANGE TABLE table_name ADD COLUMN column_name TEXT;</pre>",
+          "comments": "",
+          "comments_html": "It seems like this should be a command, but it's not quite right. One word needs to be replaced. Which is it?",
+          "weight": 0.0
+        },
+        {
+          "id": 68,
+          "text": "",
+          "html": "<pre>CHANGE TABLE table_name COLUMN column_name TEXT;</pre>",
+          "comments": "",
+          "comments_html": "This command has two problems: two of the commands are wrong. How can we fix them?",
+          "weight": 0.0
+        },
+        {
+          "id": 502,
+          "text": "",
+          "html": "<pre>ALTER TABLE table_name ADD COLUMN column_name TEXT</pre>",
+          "comments": "",
+          "comments_html": "So close. One little punctuation mark is missing. What is it and where does it go?",
+          "weight": 0.0
+        },
+        {
+          "id": 6548,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19091,
+      "id": 120569,
+      "quiz_group_id": null,
+      "assessment_question_id": 182746,
+      "position": null,
+      "question_name": "SQL: Database Basics",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>To add data into an existing database table, which command is used?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/sql-insert-select-update-and-delete?module_item_id=143866\" target=\"_blank\">SQL Insert, Select, Update and Delete</a></p>",
+      "answers": [
+        {
+          "id": 6999,
+          "text": "",
+          "html": "<pre>INSERT INTO</pre>",
+          "comments": "",
+          "comments_html": "Yes! This will insert new rows into the table.",
+          "weight": 100.0
+        },
+        {
+          "id": 4145,
+          "text": "",
+          "html": "<pre>ADD TO</pre>",
+          "comments": "",
+          "comments_html": "This is not a command. Which command seems like it would perform a similar function?",
+          "weight": 0.0
+        },
+        {
+          "id": 7715,
+          "text": "",
+          "html": "<pre>UPDATE</pre>",
+          "comments": "",
+          "comments_html": "This command updates existing data. Which command adds new data?",
+          "weight": 0.0
+        },
+        {
+          "id": 8282,
+          "text": "",
+          "html": "<pre>INSERT</pre>",
+          "comments": "",
+          "comments_html": "Almost. We're missing one word.",
+          "weight": 0.0
+        },
+        {
+          "id": 1950,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19091,
+      "id": 120570,
+      "quiz_group_id": null,
+      "assessment_question_id": 182747,
+      "position": null,
+      "question_name": "SQL: Database Basics",
+      "question_type": "multiple_choice_question",
+      "question_text": "<div><span>To retrieve all of the data from an existing database table, which command is used?</span></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/sql-insert-select-update-and-delete?module_item_id=143866\" target=\"_blank\">SQL Insert, Select, Update and Delete</a></p>",
+      "answers": [
+        {
+          "id": 2820,
+          "text": "",
+          "html": "<pre>SELECT * FROM table_name;</pre>",
+          "comments": "",
+          "comments_html": "Perfect! This will retrieve all of the rows from the table.",
+          "weight": 100.0
+        },
+        {
+          "id": 9087,
+          "text": "",
+          "html": "<pre>SELECT FROM table_name;</pre>",
+          "comments": "",
+          "comments_html": "Almost. Something is missing: we're not telling SQL what to select.",
+          "weight": 0.0
+        },
+        {
+          "id": 8266,
+          "text": "",
+          "html": "<pre>SELECT table_name;</pre>",
+          "comments": "",
+          "comments_html": "Not quite. The command isn't quite correct and we're not telling SQL what to select.",
+          "weight": 0.0
+        },
+        {
+          "id": 8566,
+          "text": "",
+          "html": "<p>I don't know.</p>",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19091,
+      "id": 120571,
+      "quiz_group_id": null,
+      "assessment_question_id": 182749,
+      "position": null,
+      "question_name": "SQL: Aggregate Functions",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p>Which of the following are aggregate functions in SQL? Select <strong>all</strong> that apply.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/aggregate-functions?module_item_id=143870\" target=\"_blank\">Aggregate Functions</a></p>",
+      "answers": [
+        {
+          "id": "8319",
+          "text": "AVG",
+          "comments": "",
+          "comments_html": "Correct! Aggregate functions perform calculations, and this command finds the average value for the specified data.",
+          "weight": 100.0
+        },
+        {
+          "id": "95",
+          "text": "MIN",
+          "comments": "",
+          "comments_html": "Yes! Aggregate functions perform calculations, and this command finds the minimum value for the specified data.",
+          "weight": 100.0
+        },
+        {
+          "id": "6482",
+          "text": "COUNT",
+          "comments": "",
+          "comments_html": "Exactly! Aggregate functions perform calculations, and this command counts the rows in the specified data.",
+          "weight": 100.0
+        },
+        {
+          "id": "7140",
+          "text": "SELECT",
+          "comments": "",
+          "comments_html": "Not quite. Aggregate functions perform calculations. Which of these commands look like they do that?",
+          "weight": 0.0
+        },
+        {
+          "id": "6429",
+          "text": "GROUP",
+          "comments": "",
+          "comments_html": "Not quite. Aggregate functions perform calculations. Which of these commands look like they do that?",
+          "weight": 0.0
+        },
+        {
+          "id": "7567",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19091,
+      "id": 120572,
+      "quiz_group_id": null,
+      "assessment_question_id": 182748,
+      "position": null,
+      "question_name": "SQL: Queries",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Consider the following table and SQL query:</p>\n<div class=\"highlight highlight-source-sql\">\n<pre>band             most_hated_rank    genre             country\n<span class=\"pl-c\">---------------  ----------------   ----------------  ----------</span>\nNickelback        <span class=\"pl-c1\">1</span>                 alternative rock  Canada\nCreed             <span class=\"pl-c1\">2</span>                 alternative metal US\nLimp Bizkit       <span class=\"pl-c1\">3</span>                 rap rock          US\nColdplay          <span class=\"pl-c1\">4</span>                 pop               England</pre>\n</div>\n<div class=\"highlight highlight-source-sql\">\n<pre><span class=\"pl-k\">SELECT</span> <span class=\"pl-k\">*</span> <span class=\"pl-k\">FROM</span> band <span class=\"pl-k\">ORDER BY</span>(most_hated_rank) <span class=\"pl-k\">DESC</span> <span class=\"pl-k\">LIMIT</span> <span class=\"pl-c1\">2</span>;</pre>\n</div>\n<p>What will the SQL query above return?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/sql-queries?module_item_id=143867\" target=\"_blank\">SQL Queries</a></p>",
+      "answers": [
+        {
+          "id": 5045,
+          "text": "",
+          "html": "<pre>band             most_hated_rank    genre             country\n<span class=\"pl-c\">---------------  ----------------   ----------------  ----------</span>\nColdplay          <span class=\"pl-c1\">4</span>                 pop               England\nLimp Bizkit       <span class=\"pl-c1\">3</span>                 rap rock          US</pre>",
+          "comments": "",
+          "comments_html": "Whoa there! Great job! The query will return the most hated bands ordered from highest to lowest rank.",
+          "weight": 100.0
+        },
+        {
+          "id": 4881,
+          "text": "",
+          "html": "<pre>band             most_hated_rank    genre             country\n<span class=\"pl-c\">---------------  ----------------   ----------------  ----------</span>\nNickelback        <span class=\"pl-c1\">1</span>                 alternative rock  Canada\nCreed             <span class=\"pl-c1\">2</span>                 alternative metal US</pre>",
+          "comments": "",
+          "comments_html": "Not quite. In what order should the rows be returned? What does DESC mean?",
+          "weight": 0.0
+        },
+        {
+          "id": 9517,
+          "text": "",
+          "html": "<pre>band             most_hated_rank    genre             country\n<span class=\"pl-c\">---------------  ----------------   ----------------  ----------</span>\nNickelback        <span class=\"pl-c1\">1</span>                 alternative rock  Canada</pre>",
+          "comments": "",
+          "comments_html": "How many rows should be returned? What does LIMIT mean? And in what order should the rows be returned? What does DESC mean?",
+          "weight": 0.0
+        },
+        {
+          "id": 6583,
+          "text": "",
+          "html": "<pre>band             most_hated_rank    genre             country\n<span class=\"pl-c\">---------------  ----------------   ----------------  ----------</span>\nColdplay          <span class=\"pl-c1\">4</span>                 pop               England</pre>",
+          "comments": "",
+          "comments_html": "Not quite. How many rows should be returned? What does LIMIT mean?",
+          "weight": 0.0
+        },
+        {
+          "id": 9235,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
